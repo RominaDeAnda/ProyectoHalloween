@@ -1,0 +1,314 @@
+body{
+	background-color: #331A38;
+	margin:0 auto;
+	color: white;
+	font-family: 'Lora', serif;
+}
+
+#container{
+	
+	background-size: 100%;
+	
+}
+.main{
+	background-color: #101532;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+.logo img{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	height:120px;
+	margin-left: 100px;
+}
+
+.nav-link{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.opciones{
+
+	height:100%;
+	display:flex;
+	justify-content:flex-end;
+	margin-right: 100px;
+	/*hacer espacio entre las palabras ABOUT US GALLERY Y CONTACT*/
+}
+
+nav{
+	background-color: #f7f4ee;
+	font-family:sans-serif;
+	display: inline-block;
+	float:right;
+	
+}
+
+nav li{
+	margin:100px;
+	padding: 1000px;
+}
+
+.opciones a{
+	color:white;
+	font-size:25px;
+	display: flex;
+	justify-content: flex-start;
+	
+	
+}
+
+.boton{
+	display:inline-block;
+	margin-right:100px;
+	padding: 20px 68px; /*tamano del boton*/
+	background-color: #F05924;
+	color:white;
+	border-radius: 80px; /*esquinas redondeadas*/
+	/*font-size: 18px;*/
+}
+.boton a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	
+}
+
+#gif img{
+	width:100%;
+	/*margin:auto;*/
+}
+
+#textomain{
+	margin-top: 80px;
+	text-align: center;
+}
+
+#textomain h1{
+	font-size: 50px;
+}
+
+#textomain h2{
+	font-size: 35px;
+}
+
+ .joinus{
+	align-content: center;
+	display:inline-block;
+	margin-top:20px;
+	 padding: 20px 68px; /*tamano del boton*/
+	 background-color: #F05924;
+	 color:white;
+	 border-radius: 80px; /*esquinas redondeadas*/
+	 /*font-size: 18px;*/
+}
+.joinus a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;	
+}
+
+#aboutus{
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+.imagen1 h1{
+	margin-left: 156px;
+	color:#F05924;
+	font-size: 80px;
+	font-weight: bold;
+	
+}
+.imagen1 h2{
+	margin-top: 43px;
+	margin-left: 140px;
+	font-size: 30px;
+	/*height:146px;
+	width: 563px;*/
+	
+}
+
+.imagen1 p{
+	margin-left: 140px;
+	font-size: 30px;
+	margin-top:26px;
+	/*width: 563px;
+	height: 108px;*/
+}
+
+.imagen1 img{
+	width: 417px;
+	height: 458px;
+	margin-left:135px;	
+}
+
+.imagen2 img{
+	margin-top: 95px;
+	width: 617px;
+	height: 355px;
+	margin-left: 113px;
+}
+
+.imagen2 p{
+	margin-top: 154px;
+	font-size: 30px;
+	line-height: 35px;
+	margin-right: 139px;
+}
+
+
+#gallery{
+	background-color: #6D3478;
+	
+}
+
+#gallery h1{
+	margin-top:68px;
+	margin-bottom: 83px;
+	color:#101532;
+	font-size: 100px;
+	text-align: center;
+	font-weight: bold;
+} 
+
+#gallery h2{
+	font-size: 40px;
+	margin-top:68px;
+	margin-bottom: 68px;
+	text-align: center;
+
+	
+}
+#gallery img{
+	width:486px;
+	height:655px;
+	margin-left: 50px;
+	margin-right: 0px;
+	border-radius: 150px;
+	/*align-items: center;
+	/*float:none;
+	margin:0;*/
+	/*height:100%;*/
+	
+	
+}
+
+#gallery img:hover{
+	transform:scale(1.01);
+}
+
+#contact{
+	
+
+	
+}
+#contact h1{
+	margin-top: 122px;
+	color:#F4E854;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+#contact h2{
+	text-align: center;
+	font-size: 50px;
+	line-height: 58px;
+	margin-right: 342px;
+	margin-left: 342px;
+	margin-top: 50px;
+	
+}
+
+#contact img{
+	width: 468px;
+	height: 467px;
+	margin-left: 628px;
+	margin-right: 496px;
+	/*margin-top: 10px;*/
+
+	
+}
+
+#contact p{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+/*ESTILOS PAGINA SPY DOLLS*/
+
+.head{
+	background-color: #101532;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.head img{
+	margin-top: 37px;
+	margin-bottom: 38px;
+	width: 524px;
+	height: 169px;
+	margin-left: 556px;
+}
+
+.welcome h1{
+	color:#F4E854;
+	font-weight: bold;
+	font-size: 80px;
+	text-align: center;
+	margin-top: 45px;
+}
+
+.welcome h2{
+	font-size: 40px;
+	text-align: center;
+	margin-top: 38px;
+}
+
+.catalogoimagenes{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.catalogoimagenes img{
+	margin-left:200px;
+}
+
+.catalogoimagenes p{
+	font-size: 40px;
+	line-height: 46px;
+	margin-right: 200px;
+	margin-top: 100px;
+}
+
+.catalogoimagenes2 img{
+	margin-top: 100px;
+	width: 562px;
+	height: 327px;
+	margin-right: 115px;
+	margin-left: 200px;
+}
+
+.catalogoimagenes2 h1{
+	margin-top: 20px;
+	font-size: 40px;
+	margin-right: 115px;
+	margin-left: 200px;
+}
+
+.catalogoimagenes2 p{
+	font-size: 40px;
+	margin-right: 115px;
+	margin-left: 200px;
+	margin-bottom: 100px;
+}
+
+
